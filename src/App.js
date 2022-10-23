@@ -1,4 +1,6 @@
 import './App.css';
+// import Header from './Components/Header/Header';
+import Layout from './Components/Layout';
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-         <h1> hello </h1>
+        <Layout />
     </div>
   );
 }

@@ -1,0 +1,81 @@
+
+.project-heading{
+   text-align: center; 
+   padding: 4rem 0 2rem 0;
+   font-size: 45px;
+      font-weight: 700;
+}
+
+.project-container2{
+    max-width: 1140px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    padding-bottom: 5rem;
+}
+
+
+.project-card{
+ 
+    padding:1.2rem 1rem;
+    border:1px solid white;
+}
+
+.project-tool{
+  color: #7865ff;
+  /* color:orange; */
+  font-size: 18px;
+  padding-bottom:0.3rem;
+}
+
+.project-tool + h4{
+   font-size: 18px;
+   color: #7865ff;
+}
+
+
+.project-card img{
+ width:100%;
+}
+
+.project-title{
+    font-size: 20px;
+  color: #7865ff;
+   font-weight: 600;
+    padding:1rem 0;
+}
+
+.project-details p{
+    padding-top: 10px;
+    padding-bottom:1rem;
+    color: #B8B8B8;
+    font-size: 18px;
+    text-align: justify-center;
+  }
+
+.project-btns{
+    display: flex;
+    padding:0.5rem 0 ;
+    justify-content: space-between;
+}
+
+.project-btns .Btn{
+  padding: 0.5rem 1rem;
+}
+
+.project-btns a {
+  text-decoration: none;
+  /* padding: 1rem; */
+}
+
+
+
+
+@media screen and (max-width:740px){
+    .project-container2{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
