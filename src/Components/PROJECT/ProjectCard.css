@@ -17,9 +17,9 @@
 
 
 .project-card{
- 
     padding:1.2rem 1rem;
-    border:1px solid white;
+    border:1px solid rgb(192, 182, 182);
+    border-radius: 10px;
 }
 
 .project-tool{

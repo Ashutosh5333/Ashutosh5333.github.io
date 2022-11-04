@@ -1,0 +1,93 @@
+.footer{
+    width:100%;
+    margin: auto;
+    /* margin-top: 120px; */
+    /* background-color:rgb(19,26,39);  */
+    /* border:1px solid green; */
+}
+
+.footer-Content{
+    /* border:1px solid yellow; */
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+
+}
+
+.leftSide{
+   /* border:1px solid red; */
+    height:100%;
+    /* width:70%; */
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+ 
+}
+
+.location-main-div , .mobile-main-div , .email-main-div {
+    /* border:1px solid green; */
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.social{
+   display: flex;
+}
+
+
+.rightSide{
+    height:100%;
+    /* border:1px solid orange; */
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.linkdin , .github  {
+    width:50px;
+    height:50px;
+  color:#fff;
+  margin-right: 3rem;
+}
+
+/* .github{
+    width:50px;
+    height:50px;
+    color:#fff;
+    margin-left: -20px;
+} */
+
+@media  screen and (max-width:450px) {
+
+    .linkdin , .facebook , .github {
+        width:30px;
+        height:30px;
+      color:#fff;
+      margin-right: 3rem;
+    }
+
+
+    .location-main-div , .mobile-main-div , .email-main-div {
+        /* border:1px solid green; */
+        display:block;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-Content{
+        /* border:1px solid yellow; */
+        width:100%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px;
+    
+    }
+
+
+}

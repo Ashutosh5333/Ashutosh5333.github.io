@@ -1,20 +1,14 @@
  import projImg1 from "../../assets/projImg1.jpeg"
- import projImg2 from "../../assets/projImg2.jpeg"
  import projImg3 from "../../assets/projImg3.jpeg"
+ import Im3 from "../../assets/Im3.jpeg"
+ import Im4 from "../../assets/Im4.jpeg"
+ import Im5 from "../../assets/Im5.jpeg"
 
 
 const ProjectCardData = [
 
     {
-        imgsrc:projImg1,
-        title:"NATURE BASKET ",
-        tool:"HTML | CSS | JS",
-        text: "Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods. ",
-        Code:"https://github.com/aaryansinha16/Nature-Basket-WEB-18",
-        source:"https://teal-pixie-015fbb.netlify.app/",
-    },
-    {
-        imgsrc:projImg2,
+        imgsrc:Im3,
         title:"MY GLAMM",
         tool:"HTML | CSS | JS | ",
         text:"Clone of an E-commerce (myglamm) website which is made from Html,css,javascript , In this clone website all the latest products  makeup perfumes jewallary etc, ",
@@ -28,7 +22,25 @@ const ProjectCardData = [
         text:"This website is an ecommerce website. You can Buy beauty products on this website. In this clone website all the latest products  makeup perfumes jewallary etc, ",
         code:"https://github.com/jstgrowup/BeautyBebo-clone",
         source:"https://delightful-duckanoo-17fff8.netlify.app/",
-    }
+    },
+    {
+        imgsrc:projImg1,
+        title:"NATURE BASKET ",
+        tool:"HTML | CSS | JS",
+        text:"Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods. ",
+        code:"https://github.com/aaryansinha16/Nature-Basket-WEB-18",
+        source:"https://teal-pixie-015fbb.netlify.app/",
+    },
+    {
+        imgsrc:Im5,
+        title:"SHOP.COM",
+        tool:"HTML | CSS | ReactJS | ChakraUI  ",
+        text:"Shop.com is an international online Ecommerce website largest collection of products at the lowest prices & fast shipping worldwide. Online Shopping Site in India for Mobile ",
+        code:"https://github.com/Ashutosh5333/fresh-dinosaurs-7507/tree/main/merge",
+        source:"https://myproject-ashutosh5333.vercel.app/",
+    },
+
+    
 ]
 
 export default ProjectCardData

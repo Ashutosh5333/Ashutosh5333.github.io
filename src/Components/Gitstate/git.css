@@ -1,0 +1,49 @@
+.main-stat{
+    width:90%;
+    height:auto;
+    text-align: center;
+    margin-top: 60px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    gap: 5px;
+}
+
+.main-stat h2 {
+  width: 90%;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+
+.disstat{
+    /* display: grid; */
+    /* margin: auto; */
+    /* grid-template-columns: repeat(2,1fr); */
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+  
+  
+  @media only screen and (max-width: 720px) {
+    .disstat{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+  } 
+
+
+/*   
+  @media only screen and (max-width: 400px) {
+    .disstat{
+        width:50%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        border: 1px solid red;
+      }
+     .img img {
+      width: 50%;
+     }
+
+  }  */
+

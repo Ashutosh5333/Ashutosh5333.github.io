@@ -32,7 +32,7 @@ export default function HeroSection() {
                    {/* <p className='mb-4'>Welcome To My PortFolio</p> */}
                    <h5 className='mb-3'>Hi</h5>
                    <h2 className='hero_title mb-3' >I'm  <span>Ashutosh Lakshakar</span></h2>
-                   <p>A passionate programmer with ability to learn quickly and implement and also versatile enough to learn and work in new environment Currently looking for an opportunity to work for an organization where I can contribute my skills and manage key projects that impact the organization, as well as broaden my scope of learning .</p>
+                   <p>A passionate programmer with the ability to learn quickly and implement and also versatile enough to learn and work in a new environment Currently looking for an opportunity to work for an organization where I can contribute my skills and manage critical projects that impact the organization, as well as broaden my scope of learning.</p>
                    <div className='mt-4 hero__btns d-flex align-items-center gap-4'>
                        <button className='resumee-btnn'><a href={CV} download>Resume</a></button>
                         <button className='Btn'>Contact</button>
