@@ -5,7 +5,6 @@ import {Container ,Row ,Col, } from "reactstrap"
 
 export default function About() {
 
-  // align-items-center
 
   return (
    

@@ -76,3 +76,14 @@
   button {
      background: #7865ff;;
   }
+
+  @media screen and (max-width:450px) {
+      .SendBtn{
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+         margin-left: 100px;
+        /* border: 1px solid red; */
+      } 
+
+  }

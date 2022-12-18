@@ -5,11 +5,11 @@ import GitHubCalendar from 'react-github-calendar';
 export const Github = () => {
   return (
     <div className='github'>
-
-      <div>
+      <div className='githubcalender'>
         <h2 style={{marginTop:"6rem"}}>Github Calender</h2>
          <GitHubCalendar username="Ashutosh5333" style={{color:"white",margin:"auto",marginTop:"2rem"}} />
         </div>  
+
     </div>
   )
 }

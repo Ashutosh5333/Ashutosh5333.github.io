@@ -6,20 +6,24 @@ export const Gitstat = () => {
   return (
        
     <div className="main-stat">
+    
     <h2> Git Stats </h2>
     <br/>
        <div className="disstat">
-   <div >
+
+     <div className="upper">
         <img
           src="https://github-readme-streak-stats.herokuapp.com?user=Ashutosh5333&theme=gruvbox_duo"
         />
       </div>
       <br/>
-      <div >
+
+      <div className="lower" >
         <img
           src="https://github-readme-stats.vercel.app/api?username=Ashutosh5333&show_icons=true&locale=en&theme=react&hide_border=true"
         />
       </div>
+
    </div> 
   
     </div>

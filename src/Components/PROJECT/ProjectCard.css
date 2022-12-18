@@ -70,10 +70,20 @@
 }
 
 
+@media screen and (max-width:1000px){
+  .project-container2{
+    /* border: 1px solid rgb(60, 255, 0); */
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
 
 
 @media screen and (max-width:740px){
     .project-container2{
+      /* border: 1px solid red; */
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;

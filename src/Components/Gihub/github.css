@@ -1,7 +1,12 @@
 .github{
     width: 100%;
     text-align: center;
-    margin-bottom: 180px;
+    margin-bottom: 220px;
+    /* border: 1px solid red; */
+}
+
+.githubcalender{
+  /* border: 1px solid yellow; */
 }
 
 .github h2 {
@@ -10,16 +15,15 @@
 }
 
 
-
+/* 
 .main-stat{
     width:100%;
     height:auto;
     text-align: center;
     margin-top: 60px;
-}
+} */
 
-
-
+/* 
   .static{
     width:90%;
     display:grid;
@@ -29,8 +33,25 @@
     margin: auto;
     margin-top: 40px;
     background-color: #ffff;
-  }
+  } */
   
+  
+  @media only screen and (max-width: 1000px) {
+    .githubcalender{
+          width: 90%;
+          margin: auto;
+      }
+  }
+  @media only screen and (max-width: 724px) {
+    .githubcalender{
+          width: 90%;
+          margin: auto;
+      }
+
+  }
+
+
+/* 
   @media only screen and (max-width: 720px) {
     .static{
         width:90%;
@@ -42,6 +63,4 @@
         margin-top: 40px;
         background-color: #ffff;
       }
-
-
-  }
+  } */

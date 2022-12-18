@@ -5,6 +5,7 @@ import {FaHome ,FaPhone,FaMailBulk, FaGithub,FaLinkedin, } from "react-icons/fa"
 const Footer = () => {
   return (
     <div className="footer">
+    
       <hr style={{width:"90%",margin:"auto",marginBottom:"10px"}}></hr>
         <div className="footer-Content">
 
@@ -50,6 +51,7 @@ const Footer = () => {
               </div>
             </div> 
         </div>
+
     </div>
   )
 }

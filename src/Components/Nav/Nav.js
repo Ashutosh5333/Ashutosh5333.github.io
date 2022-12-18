@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import { HashLink } from 'react-router-hash-link';
+
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -49,18 +50,11 @@ export const NavBar = () => {
               <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#proj" className={activeLink === 'proj' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Contact</Nav.Link>
+              <Nav.Link href="#home" className={activeLink === 'Resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Resume')}>Resume</Nav.Link>
+
             </Nav>
 
-            {/* <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#"><img src="https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/nav-icon1.svg" alt="" /></a>
-                <a href="#"><img src={"https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/nav-icon2.svg"} alt="" /></a>
-                <a href="#"><img src={"https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/nav-icon3.svg"} alt="" /></a>
-              </div>
-              <HashLink to='#contact'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
-            </span> */}
+           
 
           </Navbar.Collapse>
         </Container>
