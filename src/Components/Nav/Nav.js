@@ -33,6 +33,7 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -50,7 +51,9 @@ export const NavBar = () => {
               <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#proj" className={activeLink === 'proj' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Contact</Nav.Link>
-              <Nav.Link href="#home" className={activeLink === 'Resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Resume')}>Resume</Nav.Link>
+              <Nav.Link  className={activeLink === 'Resume' ? 'active navbar-link' : 'navbar-link'}
+               target="_blank" href={"https://drive.google.com/file/d/1BzpDODVcwSgxTYpxMolwDeRZAhxlW_T_/view?usp=share_link"} _blank download
+               onClick={() => onUpdateActiveLink('Resume')}>Resume</Nav.Link>
 
             </Nav>
 
