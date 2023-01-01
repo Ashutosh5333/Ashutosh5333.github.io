@@ -27,18 +27,6 @@ const ProjectCardData = [
         source:"https://ashutosh5333.github.io/",
       
     },
-
-    {
-        imgsrc:youtube,
-        title:"YOUTUBE",
-        tool:"HTML | CSS | JS | ",
-        text:"This is a Youtube clone where you can watch and search popular videos and Trending videos. also you can search as well as like original youtube. ",
-        code:"https://github.com/Ashutosh5333/Youtube_Clone/tree/main/New%20folder",
-        source:"https://roaring-mooncake-00a91b.netlify.app/",
-      
-    },
-
-
     {
         imgsrc:Im3,
         title:"MY GLAMM",
