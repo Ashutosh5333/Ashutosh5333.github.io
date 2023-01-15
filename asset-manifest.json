@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03fe72b0.css",
-    "main.js": "/static/js/main.fe2994d9.js",
+    "main.js": "/static/js/main.7ef09763.js",
     "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
     "static/media/byme.png": "/static/media/byme.30b514040df6556b74bb.png",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -9,24 +9,22 @@
     "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "static/media/Im5.jpeg": "/static/media/Im5.4a73f9d0a326bd2e344f.jpeg",
-    "static/media/youtube.jpeg": "/static/media/youtube.290427063f81ac182a9b.jpeg",
-    "static/media/Ashutosh-lakshakar-Resume.pdf": "/static/media/Ashutosh-lakshakar-Resume.2c39ac116f2fb5a237f5.pdf",
+    "static/media/Ashutosh-lakshakar-Resume.pdf": "/static/media/Ashutosh-lakshakar-Resume.2ae3747219adf10407f0.pdf",
     "static/media/projImg1.jpeg": "/static/media/projImg1.f7a5abb1d8a6f41ff505.jpeg",
     "static/media/projImg3.jpeg": "/static/media/projImg3.c86a11b4f6c127fdb3f4.jpeg",
     "static/media/Im3.jpeg": "/static/media/Im3.afb42b93c264cba27612.jpeg",
-    "static/media/IMG.jpeg": "/static/media/IMG.619a64f5018fb02236c7.jpeg",
+    "static/media/IMG.jpeg": "/static/media/IMG.1d1ff91b78c3a477b056.jpeg",
     "static/media/Portfolio.jpeg": "/static/media/Portfolio.57e0e23f08f41e647fcb.jpeg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.03fe72b0.css.map": "/static/css/main.03fe72b0.css.map",
-    "main.fe2994d9.js.map": "/static/js/main.fe2994d9.js.map",
+    "main.7ef09763.js.map": "/static/js/main.7ef09763.js.map",
     "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03fe72b0.css",
-    "static/js/main.fe2994d9.js"
+    "static/js/main.7ef09763.js"
   ]
 }
