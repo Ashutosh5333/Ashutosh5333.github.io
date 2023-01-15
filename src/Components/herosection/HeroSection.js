@@ -2,8 +2,7 @@ import React ,{useEffect, useRef} from 'react'
 import "./herosection.css"
 import { Container ,Row ,Col } from 'reactstrap'
 import  IMG from "../../assets/IMG.jpeg"
-// import CV from "../../assets/CV.pdf"
-// import Ashutosh_lakshakar_Resume from "../../assets/Ashutosh-lakshakar-Resume.pdf"
+
 import Ashutosh_lakshakar_Resume from "../../assets/Ashutosh-lakshakar-Resume.pdf"
 
 

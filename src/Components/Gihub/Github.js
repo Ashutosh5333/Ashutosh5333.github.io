@@ -1,6 +1,7 @@
 import React from 'react'
 import "./github.css"
 import GitHubCalendar from 'react-github-calendar';
+import cors from  "cors"
 
 export const Github = () => {
   return (

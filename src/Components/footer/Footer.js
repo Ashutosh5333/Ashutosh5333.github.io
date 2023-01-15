@@ -41,11 +41,11 @@ const Footer = () => {
            <div className="rightSide">
               <div className="social">
               <div>
-              <a href="https://www.linkedin.com/in/ashutosh-lakshakar-23b478233/"><FaLinkedin className="linkdin"/></a>
+              <a href="https://www.linkedin.com/in/ashutosh-lakshakar-23b478233/" target="_blank"><FaLinkedin className="linkdin"/></a>
               </div>
               <br/>
               <div>
-              <a href="https://github.com/Ashutosh5333"><FaGithub  className="github" /></a>
+              <a href="https://github.com/Ashutosh5333" target="_blank"><FaGithub  className="github" /></a>
               </div>
 
               </div>

@@ -2,8 +2,7 @@
  import projImg3 from "../../assets/projImg3.jpeg"
  import Im3 from "../../assets/Im3.jpeg"
  import byme from "../../assets/byme.png"
- import Im5 from "../../assets/Im5.jpeg"
-import youtube from "../../assets/youtube.jpeg"
+
 import Portfolio from "../../assets/Portfolio.jpeg"
 
 // https://roaring-mooncake-00a91b.netlify.app/
@@ -50,15 +49,8 @@ const ProjectCardData = [
         text:"Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods. ",
         code:"https://github.com/aaryansinha16/Nature-Basket-WEB-18",
         source:"https://teal-pixie-015fbb.netlify.app/",
-    },
-    // {
-    //     imgsrc:Im5,
-    //     title:"SHOP.COM",
-    //     tool:"HTML | CSS | ReactJS | ChakraUI  ",
-    //     text:"Shop.com is an international online Ecommerce website largest collection of products at the lowest prices & fast shipping worldwide. Online Shopping Site in India for Mobile. ",
-    //     code:"https://github.com/Ashutosh5333/fresh-dinosaurs-7507/tree/main/merge",
-    //     source:"https://myproject-ashutosh5333.vercel.app/",
-    // },
+    }
+    
 
 ]
 
