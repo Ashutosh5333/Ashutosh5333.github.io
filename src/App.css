@@ -9,11 +9,23 @@
   padding: 0;
   box-sizing: border-box;
   background: #0E1B31;
+  background-image: url(./assets//bg-texture.png);
  }
 
+/* 
  body {
   background: #0E1B31;
  }
+  */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  background: #0E1B31;
+   line-height: 1.7;
+   background-image: url(./assets//bg-texture.png);
+}
 
  html{
    scroll-behavior: smooth;
