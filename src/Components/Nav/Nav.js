@@ -86,7 +86,7 @@ export const NavBar = () => {
                 }
                 target="_blank"
                 href={
-                  "https://drive.google.com/file/d/1BzpDODVcwSgxTYpxMolwDeRZAhxlW_T_/view?usp=sharing"
+                  "https://drive.google.com/file/d/1dboQYHtNNi9YKidxc8SAin9we5JGEAgK/view?usp=share_link"
                 }
                 _blank
                 download
@@ -95,12 +95,7 @@ export const NavBar = () => {
                 Resume
               </Nav.Link>
               
-              {/* <Nav.Link >
-                 <Button onClick={toggleColorMode}>
-
-                {colorMode === "light" ? <FaSun color={"black"} /> : <FiSun />}
-                 </Button>
-              </Nav.Link> */}
+            
 
             </Nav>
           </Navbar.Collapse>
