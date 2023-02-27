@@ -40,13 +40,15 @@ export const Contact = () => {
               }
             </TrackVisibility>
           </Col>
-          <Col size={12} md={6}>
+          <Col className="contacttt" size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
+                   <div > 
                 <form onSubmit={handleSubmit}>
-                  <Row>
+                  
+                  <Row >
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                     </Col>
@@ -61,8 +63,7 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      {/* <button type="submit"><span>{buttonText}</span></button> */}
-                      {/* <a href=""  className="Btn">submit</a>   */}
+                    
                       <button className="SendBtn" >
                        Send</button>
                     </Col>
@@ -74,6 +75,7 @@ export const Contact = () => {
                     }
                   </Row>
                 </form>
+                </div>
               </div>}
             </TrackVisibility>
           </Col>

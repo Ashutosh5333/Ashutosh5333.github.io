@@ -40,7 +40,7 @@ const ProjectCardData = [
         tool:"HTML, CSS , JS  ",
         text:"This website is an ecommerce website. You can Buy beauty products on this website. In this clone website all the latest products  makeup perfumes jewallary etc. ",
         code:"https://github.com/jstgrowup/BeautyBebo-clone",
-        source:"https://delightful-duckanoo-17fff8.netlify.app/",
+        source:"https://soft-praline-867338.netlify.app//",
     },
     {
         imgsrc:projImg1,

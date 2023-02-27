@@ -12,6 +12,15 @@ nav.navbar {
     color:bg(rgb(180, 16, 16))
   }
 
+  h5 >span{
+     color: rgb(21, 159, 218);
+     font-size: 40px;
+  }
+
+  h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
 
   nav.navbar.scrolled {
     padding: 0px 0;
@@ -106,8 +115,7 @@ nav.navbar {
     font-weight: 500;
   }
 .navdata .nav-link:hover {
- /* background-color: rgb(210, 250, 116); */
- /* background-color: blur; */
+ 
  border-radius: 10px;
  color: rgb(2, 2, 16);
  box-shadow: 0 0 10px rgb(23, 169, 182);

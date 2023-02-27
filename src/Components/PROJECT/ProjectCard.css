@@ -7,7 +7,7 @@
 }
 
 .project-container2{
-    max-width: 1140px;
+    max-width: 1250px;
     margin:auto;
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -18,9 +18,6 @@
 
 .project-card{
     padding:1.2rem 1rem;
-    /* border:1px solid rgb(192, 182, 182); */
-    /* border: 1px solid red; */
-    /* box-shadow: 0 0 10px rgb(45, 34, 205); */
     box-shadow: 0 0 10px rgb(31, 112, 204);
     border-radius: 10px;
 }
@@ -73,19 +70,21 @@
 .project-btns{
     /* height: 10vh; */
     display: flex;
-    padding:0.5rem 0 ;
+    padding:0  20px;
     justify-content: space-between;
 }
 
 .project-btns .Btn1{
   padding: 1rem 2rem;
- background-color: none;
- box-shadow: 0 0 10px rgb(23, 169, 182);
+  /* background-color: rgb(6, 17, 12); */
+  box-shadow: 0 0 10px rgb(64, 207, 236);
 border-radius: 10px;
+ letter-spacing: 2px;
 }
 .project-btns .Btn1:hover{
   transform: scale(1.1);
   box-shadow: 0 0 10px rgb(64, 207, 236);
+    background-color: black;
    color: #fff;
 }
 

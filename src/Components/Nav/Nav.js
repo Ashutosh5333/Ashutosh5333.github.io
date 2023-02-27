@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { FiSun } from "react-icons/fi";
-import { FaSun } from "react-icons/fa";
-import { HashLink } from "react-router-hash-link";
 import { Button, useColorMode } from "@chakra-ui/react";
 
 import { BrowserRouter as Router } from "react-router-dom";
@@ -37,7 +34,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <h5>Ashutosh </h5>
+            <h5><span>A</span>shutosh  </h5>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

@@ -10,13 +10,12 @@ import "./skill.css";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -46,28 +45,28 @@ export const Skills = () => {
                     src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>React</h5> */}
+                 
                 </div>
                 <div className="item">
                   <img
                     src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>Node Js</h5> */}
+               
                 </div>
                 <div className="item">
                   <img
                     src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>Express</h5> */}
+              
                 </div>
                 <div className="item">
                   <img
                     src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>HTML</h5> */}
+             
                 </div>
                 {/* --------- */}
                 <div className="item">
@@ -75,21 +74,21 @@ export const Skills = () => {
                     src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
                     alt="Image"
                   />
-                  {/* <h5>Javascript</h5> */}
+                 
                 </div>
                 <div className="item">
                   <img
                     src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>CSS</h5> */}
+                  
                 </div>
                 <div className="item">
                   <img
                     src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
                     alt="Image"
                   />
-                  {/* <h5>Mongo DB</h5> */}
+                 
                 </div>
               </Carousel>
             </div>

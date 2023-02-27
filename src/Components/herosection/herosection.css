@@ -21,7 +21,8 @@
 }
 
 .hero_title span {
-  color: #7865ff;
+  /* color: #7865ff; */
+  color: rgb(21, 159, 218);
 }
 
 .hero_title {

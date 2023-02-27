@@ -1,11 +1,23 @@
  
   .contact {
-    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
     padding: 60px 0 200px 0;
+    /* box-shadow: 0 0 10px rgb(33, 181, 201); */
+    /* border: 1px solid red; */
   }
   .contact img {
     width: 102%;
   }
+
+  /* .contacttt{
+    border: 1px solid red;
+    box-shadow: 0 0 10px rgb(33, 181, 201);
+  } */
+  
+  /* .align-items-center{ */
+    /* border: 1px solid red; */
+     /* box-shadow: 0 0 10px rgb(33, 181, 201);  */
+  /* } */
+
   .contact h2 {
       font-size: 45px;
       font-weight: 700;
@@ -74,7 +86,9 @@
   }
 
   button {
-     background: #7865ff;;
+    background: #3b82f6;
+    box-shadow: 0 0 10px rgb(7, 81, 123);
+
   }
 
   @media screen and (max-width:450px) {
