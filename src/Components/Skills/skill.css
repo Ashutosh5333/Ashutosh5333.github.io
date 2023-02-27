@@ -4,6 +4,10 @@
     padding: 0;
   }
 
+  /* .item{
+    border: 1px solid red;
+  } */
+
   .skill-bx {
     /* background: #151515; */
     border-radius: 64px;
@@ -30,8 +34,17 @@
   }
   .skill-slider .item img {
     width: 50%;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 18px auto;
+    height: 25vh;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 20px rgb(1, 1, 15);
   }
+  
+  .item > img {
+     width: 50%;
+     height: 20vh;
+  }
+  
   .background-image-left {
     top: 28%;
     position: absolute;
