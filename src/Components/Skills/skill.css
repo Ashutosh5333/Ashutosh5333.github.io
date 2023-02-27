@@ -1,15 +1,15 @@
 .skill {
-    /* padding: 0 0 50px 0; */
-    /* position: relative; */
+   
     padding: 0;
+    
   }
 
-  /* .item{
-    border: 1px solid red;
-  } */
+  .item{
+    margin-top: 20px;
+  }
 
   .skill-bx {
-    /* background: #151515; */
+   
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
@@ -37,14 +37,19 @@
     margin: 0 auto 18px auto;
     height: 25vh;
     /* border: 1px solid black; */
-    box-shadow: 0 0 20px rgb(1, 1, 15);
+    box-shadow: 0 0 10px rgb(23, 169, 182);
+    border-radius: 10px;
   }
   
   .item > img {
      width: 50%;
      height: 20vh;
   }
-  
+  .item >img:hover{
+    transform: scale(1.1); 
+    
+  }
+
   .background-image-left {
     top: 28%;
     position: absolute;

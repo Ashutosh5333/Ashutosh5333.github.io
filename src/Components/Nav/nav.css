@@ -102,12 +102,15 @@ nav.navbar {
     color: #121212;
     /* background-color: red; */
   }
+  .navdata .nav-link{
+    font-weight: 500;
+  }
 .navdata .nav-link:hover {
  /* background-color: rgb(210, 250, 116); */
  /* background-color: blur; */
  border-radius: 10px;
  color: rgb(2, 2, 16);
- box-shadow: 0 0 10px rgb(51, 51, 199);
+ box-shadow: 0 0 10px rgb(23, 169, 182);
 }
 
 

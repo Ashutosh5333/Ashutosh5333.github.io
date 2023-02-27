@@ -51,9 +51,6 @@
 .hero__content{
   /* border: 1px solid yellow; */
   margin-top: 5px;
-  /* margin-right: 10px auto; */
-  /* width: 800px; */
-  /* height: 400px; */
 }
 
 .btn {
@@ -63,22 +60,40 @@
 
 
 .Btn {
-  background:  #7865ff;
+  background: #3b82f6;
   color: #fff;
   border: none;
   outline: none;
   border-radius: 5px;
   font-size: .9rem;
-  padding: 5px 35px;
+  padding: 10px 35px;
+  box-shadow: 0 0 10px rgb(7, 81, 123);
 }
 
 
 .resumee-btnn {
-    background: #7865ff;
-    padding: 5px 35px;
+    background: #3b82f6;
+    padding: 10px 35px;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgb(7, 81, 123);
 }
-.resumee-btnn a {
+.resume_btnn a:hover{
+  box-shadow: 0 0 10px rgb(64, 207, 236);
+   color: #fff;
+}
+
+.Btn:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(64, 207, 236);
+}
+
+
+.resumee-btnn:hover{
+  transform: scale(1.1);
+  color: #080404;
+}
+
+.resumee-btnn a  { 
   text-decoration: none;
   background: none;
   font-size: .9rem;
@@ -89,7 +104,7 @@
 
 @media screen and (max-width:1000px){
   .hero__img{
-    /* border: 1px solid rgb(60, 255, 0); */
+  
       max-width: 90%;
       margin: auto;
       grid-template-columns: 1fr 1fr;
@@ -100,7 +115,7 @@
 
 @media screen and (max-width:740px){
     .hero__img{
-      /* border: 1px solid red; */
+    
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
