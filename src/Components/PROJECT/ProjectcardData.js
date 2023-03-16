@@ -2,10 +2,10 @@
  import projImg3 from "../../assets/projImg3.jpeg"
  import Im3 from "../../assets/Im3.jpeg"
  import byme from "../../assets/byme.png"
+ import Portfolio from "../../assets/Portfolio.jpeg"
+import  QuizApp from "../../assets/QuizApp.jpeg"
+import  Travelorbitz from "../../assets/Travelorbitz.jpeg"
 
-import Portfolio from "../../assets/Portfolio.jpeg"
-
-// https://roaring-mooncake-00a91b.netlify.app/
 
 const ProjectCardData = [
     {
@@ -20,11 +20,27 @@ const ProjectCardData = [
     {
         imgsrc:Portfolio,
         title:"PORTFOLIO",
-        tool:"ReactJS , Chakra UI , JS  ", 
+        tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
         text:"This is a my portfolio where I am using React, javaScript, React-Icons,CSSand ChakraUI Here you can see all of my project  ",
         code:"https://github.com/Ashutosh5333/Ashutosh5333.github.io/tree/master",
         source:"https://ashutosh5333.github.io/",
       
+    },
+    {
+        imgsrc:Travelorbitz,
+        title:"Travel orbitz",
+        tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
+        text:"This is travel based websites where you Book  your flight tickets and hotels online with Best prices and our services are available over world ",
+        code:"https://github.com/Ashutosh5333/TravelByOrbitz",
+        source:"cerulean-stardust-2fe581.netlify.app/",
+    },
+    {
+        imgsrc:QuizApp,
+        title:"Quiz App",
+        tool:"HTML , CSS , JS  ",
+        text:"This is an Quiz App where you can give a online test and also check the results.",
+        code:"https://github.com/Ashutosh5333/MyquizApp",
+        source:"tubular-sunburst-507287.netlify.app/",
     },
     {
         imgsrc:Im3,

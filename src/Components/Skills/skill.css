@@ -28,13 +28,9 @@
       font-weight: 700;
   }
   
-  
-
 
   .skill-slider .item img {
     width: 80%;
- /* margin-bottom: 30px; */
- /* margin-top: 30px; */
   }
   
   .item:hover{
