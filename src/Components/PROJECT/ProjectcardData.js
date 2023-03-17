@@ -32,7 +32,7 @@ const ProjectCardData = [
         tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
         text:"This is travel based websites where you Book  your flight tickets and hotels online with Best prices and our services are available over world ",
         code:"https://github.com/Ashutosh5333/TravelByOrbitz",
-        source:"cerulean-stardust-2fe581.netlify.app/",
+        source:"https://cerulean-stardust-2fe581.netlify.app/",
     },
     {
         imgsrc:QuizApp,
@@ -40,7 +40,7 @@ const ProjectCardData = [
         tool:"HTML , CSS , JS  ",
         text:"This is an Quiz App where you can give a online test and also check the results.",
         code:"https://github.com/Ashutosh5333/MyquizApp",
-        source:"tubular-sunburst-507287.netlify.app/",
+        source:"https://tubular-sunburst-507287.netlify.app/",
     },
     {
         imgsrc:Im3,
