@@ -5,7 +5,7 @@
  import Portfolio from "../../assets/Portfolio.jpeg"
 import  QuizApp from "../../assets/QuizApp.jpeg"
 import  Travelorbitz from "../../assets/Travelorbitz.jpeg"
-
+import Hospital from "../../assets/Hospital.jpeg"
 
 const ProjectCardData = [
     {
@@ -25,6 +25,14 @@ const ProjectCardData = [
         code:"https://github.com/Ashutosh5333/Ashutosh5333.github.io/tree/master",
         source:"https://ashutosh5333.github.io/",
       
+    },
+    {
+        imgsrc:Hospital,
+        title:"Hospital Management System",
+        tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
+        text:"This is Hospital based websites where you Book  your Appoinments and Room online with Best prices and our services are available over India",
+        code:"https://github.com/Ashutosh5333/Hospitalmangement",
+        source:"https://hospitalmangement.vercel.app/",
     },
     {
         imgsrc:Travelorbitz,
