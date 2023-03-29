@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.603ceb3b.css",
-    "main.js": "/static/js/main.3ae60ba5.js",
+    "main.js": "/static/js/main.e7fd282e.js",
     "static/media/byme.png": "/static/media/byme.30b514040df6556b74bb.png",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -12,6 +12,7 @@
     "static/media/projImg1.jpeg": "/static/media/projImg1.f7a5abb1d8a6f41ff505.jpeg",
     "static/media/projImg3.jpeg": "/static/media/projImg3.c86a11b4f6c127fdb3f4.jpeg",
     "static/media/QuizApp.jpeg": "/static/media/QuizApp.3514c9ae281b0e2adbe1.jpeg",
+    "static/media/Hospital.jpeg": "/static/media/Hospital.582f4b0b32f0d9b6548e.jpeg",
     "static/media/Im3.jpeg": "/static/media/Im3.afb42b93c264cba27612.jpeg",
     "static/media/IMG.jpeg": "/static/media/IMG.1d1ff91b78c3a477b056.jpeg",
     "static/media/Travelorbitz.jpeg": "/static/media/Travelorbitz.5775e75641eaad85560d.jpeg",
@@ -21,10 +22,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.603ceb3b.css.map": "/static/css/main.603ceb3b.css.map",
-    "main.3ae60ba5.js.map": "/static/js/main.3ae60ba5.js.map"
+    "main.e7fd282e.js.map": "/static/js/main.e7fd282e.js.map"
   },
   "entrypoints": [
     "static/css/main.603ceb3b.css",
-    "static/js/main.3ae60ba5.js"
+    "static/js/main.e7fd282e.js"
   ]
 }
