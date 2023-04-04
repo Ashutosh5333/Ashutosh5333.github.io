@@ -56,7 +56,7 @@ const ProjectCardData = [
         tool:"HTML , CSS , JS  ",
         text:"Clone of an E-commerce (myglamm) website which is made from Html,css,javascript , In this clone website all the latest products  makeup perfumes. ",
         code:"https://github.com/gucci1909/My-glamm-Website-Clone",
-        source:"https://storied-salmiakki-e58d71.netlify.app/",
+        source:"https://velvety-capybara-8d8cd4.netlify.app/",
     },
     {
         imgsrc:projImg3,
