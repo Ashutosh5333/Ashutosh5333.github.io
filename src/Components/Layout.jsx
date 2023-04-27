@@ -8,6 +8,7 @@ import { NavBar } from './Nav/Nav'
 import ProjectWork from './PROJECT/ProjectWork'
 // import { Projects } from './projte/Projects'
 import { Skills } from './Skills/Skill'
+import PersonalAchive from './PersonalAchive/PersonalAchive'
 
 export default function Layout() {
 
@@ -17,6 +18,7 @@ export default function Layout() {
     <NavBar/>
     <HeroSection />
     <Skills/>
+    <PersonalAchive/>
     <Gitstat/>
     <Github />
   <ProjectWork />
