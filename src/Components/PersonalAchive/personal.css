@@ -33,7 +33,7 @@ img:hover{
  
   
   
-  @media all and (max-width: 1100px) {
+  @media all and (max-width: 1240px) {
     .personalAchive {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
