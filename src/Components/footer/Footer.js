@@ -40,8 +40,8 @@ const Footer = () => {
 
            <div className="rightSide">
               <div className="social">
-              <div>
-              <a href="https://www.linkedin.com/in/ashutosh-lakshakar-23b478233/" target="_blank"><FaLinkedin className="linkdin"/></a>
+              <div id="contact-linkedin">
+              <a id="contact-linkedin" href="https://www.linkedin.com/in/ashutosh-lakshakar-23b478233/" target="_blank"><FaLinkedin className="linkdin"/></a>
               </div>
               <br/>
               <div id="contact-github">

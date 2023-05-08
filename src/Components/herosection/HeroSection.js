@@ -15,9 +15,9 @@ export default function HeroSection() {
   return (
      <section>
         <Container className='sect' id='home'>
-           <Row id="about">
+           <Row >
             <Col lg="6" md="6">
-                 <div className='hero__content mb-4'>
+                 <div className='hero__content mb-4' id="about">
                    
                    <h5 className='mb-3'>Hi</h5>
                    <h2 className='hero_title mb-3' >I'm  <span id="user-detail-name">Ashutosh Lakshakar</span></h2>

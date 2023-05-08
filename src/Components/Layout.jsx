@@ -18,8 +18,11 @@ export default function Layout() {
     <NavBar/>
     <HeroSection />
     <Skills/>
+    <br/>
     <PersonalAchive/>
+     <br/>
     <Gitstat/>
+    <br/>
     <Github />
   <ProjectWork />
 

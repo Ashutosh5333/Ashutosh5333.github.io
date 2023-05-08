@@ -40,7 +40,20 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
+
             <Nav className="ms-auto navdata">
+              <Nav.Link className="nav.link.home">
+
+              </Nav.Link>
+              <Nav.Link className="nav.link.about">
+
+              </Nav.Link>
+              <Nav.Link className="nav.link.contact">
+
+              </Nav.Link>
+              <Nav.Link className="nav.link.home">
+
+              </Nav.Link>
               <Nav.Link
                 href="#home"
                 className={
@@ -61,6 +74,7 @@ export const NavBar = () => {
                 Skills
               </Nav.Link>
               <Nav.Link
+                 id="projects"
                 href="#proj"
                 className={
                   activeLink === "proj" ? "active navbar-link" : "navbar-link"

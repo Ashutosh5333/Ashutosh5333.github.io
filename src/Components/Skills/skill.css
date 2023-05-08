@@ -1,7 +1,7 @@
-.skill {
+.skills-card {
    
     padding: 0;
-    
+     margin-bottom: 2rem;
   }
 
   .item{
@@ -23,7 +23,7 @@
   }
 
   
-  .skill h2 {
+  .skills-card h2 {
       font-size: 45px;
       font-weight: 700;
   }

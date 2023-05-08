@@ -28,9 +28,9 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skills-card" id="skills">
       <div className="container">
-        <div className="row">
+        <div className="nav.link.skills" >
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skill</h2>
