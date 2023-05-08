@@ -22,16 +22,16 @@ const Footer = () => {
             <div className="mobile-main-div">
               
                 <FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}} className="mobile-icon"/>
-                  <div>
-                   <p>+91 7985175333</p>
+                  <div id="contact-phone">
+                   <p id="contact-phone">+91 7985175333</p>
                    </div>
             
              
             </div>
 
-            <div className="email-main-div">
+            <div id="contact-email" className="email-main-div">
                 <FaMailBulk size={20} style={{color:"#fff",marginRight:"2rem"}} className="email-icon" />
-                <div>
+                <div id="contact-email">
                   <p>lakshakarashutosh@gmail.com</p>
                 </div>
             </div>
@@ -44,8 +44,8 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/ashutosh-lakshakar-23b478233/" target="_blank"><FaLinkedin className="linkdin"/></a>
               </div>
               <br/>
-              <div>
-              <a href="https://github.com/Ashutosh5333" target="_blank"><FaGithub  className="github" /></a>
+              <div id="contact-github">
+              <a id="contact-github" href="https://github.com/Ashutosh5333" target="_blank"><FaGithub  className="github" /></a>
               </div>
 
               </div>

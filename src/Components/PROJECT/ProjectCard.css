@@ -16,7 +16,7 @@
 }
 
 
-.project-card{
+.project-description{
     padding:1.2rem 1rem;
     box-shadow: 0 0 10px rgb(31, 112, 204);
     border-radius: 10px;
@@ -37,12 +37,12 @@
 }
 
 
-.project-card img{
+.project-description img{
  width:100%;
  border-radius: 5px;
 }
 
-.project-card img:hover{
+.project-description img:hover{
   transform: scale(1.1);
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(64, 207, 236);

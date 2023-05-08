@@ -11,14 +11,18 @@ export const Gitstat = () => {
     <br/>
        <div className="disstat">
 
-     <div className="upper">
+  {/* id="github-stats-langs" */}
+  
+     <div id="github-stats-langs" className="upper" >
         <img
           src="https://github-readme-streak-stats.herokuapp.com?user=Ashutosh5333&theme=gruvbox_duo"
         />
       </div>
       <br/>
 
-      <div className="lower" >
+      {/*id="github-stats-card"  */}
+
+      <div id="github-stats-card"   className="lower"  >
         <img
           src="https://github-readme-stats.vercel.app/api?username=Ashutosh5333&show_icons=true&locale=en&theme=react&hide_border=true"
         />

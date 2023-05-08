@@ -6,7 +6,7 @@ import  {Gitstat}  from './Gitstate/Gitstat'
 import HeroSection from './herosection/HeroSection'
 import { NavBar } from './Nav/Nav'
 import ProjectWork from './PROJECT/ProjectWork'
-// import { Projects } from './projte/Projects'
+
 import { Skills } from './Skills/Skill'
 import PersonalAchive from './PersonalAchive/PersonalAchive'
 

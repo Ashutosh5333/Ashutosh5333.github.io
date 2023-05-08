@@ -31,7 +31,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar id="nav-menu" expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
             <h5><span>A</span>shutosh  </h5>
@@ -50,7 +50,7 @@ export const NavBar = () => {
               >
                 About
               </Nav.Link>
-              {/* <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About</Nav.Link> */}
+          
               <Nav.Link
                 href="#skill"
                 className={
@@ -84,6 +84,7 @@ export const NavBar = () => {
                 className={
                   activeLink === "Resume" ? "active navbar-link" : "navbar-link"
                 }
+                id="resume-button-1"
                 target="_blank"
                 href={
                   "https://drive.google.com/file/d/1dboQYHtNNi9YKidxc8SAin9we5JGEAgK/view?usp=share_link"
