@@ -24,16 +24,24 @@ const ProjectCardData = [
         text:"This is a my portfolio where I am using React, javaScript, React-Icons,CSSand ChakraUI Here you can see all of my project  ",
         code:"https://github.com/Ashutosh5333/Ashutosh5333.github.io/tree/master",
         source:"https://ashutosh5333.github.io/",
-      
     },
     {
-        imgsrc:Hospital,
-        title:"Hospital Management System",
-        tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
-        text:"This is Hospital based websites where you Book  your Appoinments and Room online with Best prices and our services are available over India",
-        code:"https://github.com/Ashutosh5333/Hospitalmangement",
-        source:"https://hospitalmangement.vercel.app/",
+        imgsrc:"https://github.com/Ashutosh5333/Techprimelab/assets/101393850/927b2003-3562-4837-93b1-da6bc0573902",
+        title:"Project ManageMent",
+        tool:"HTML, CSS, JS,  ReactJS, ChakraUI, Nodejs, MongoDB ",
+        text:"This is a project management website where you can manage your all project and check your project working process",
+        code:"https://github.com/Ashutosh5333/Project-mangement",
+        source:"https://techprimelab-w6i3.vercel.app/",
     },
+    {
+        imgsrc: "https://github.com/Ashutosh5333/Ashutosh5333/assets/101393850/7f94dc4c-ce3f-4d3c-923f-2869a1197057",
+        title:"Doctor Appointment Booking System",
+        tool:"HTML, CSS, JS,  ReactJS, ChakraUI, Nodejs, MongoDB ",
+        text:"This is a Doctor Appointment Booking website where you can you book your Appointment According to your time and Doctor can Accept the Appointment / reject.",
+        code:"https://github.com/Ashutosh5333/Doctor_management_system",
+        source:"https://doctor-management-system.vercel.app/doctordash",
+    },
+   
     {
         imgsrc:Travelorbitz,
         title:"Travel orbitz",
@@ -57,6 +65,14 @@ const ProjectCardData = [
         text:"Clone of an E-commerce (myglamm) website which is made from Html,css,javascript , In this clone website all the latest products  makeup perfumes. ",
         code:"https://github.com/gucci1909/My-glamm-Website-Clone",
         source:"https://velvety-capybara-8d8cd4.netlify.app/",
+    },
+    {
+        imgsrc:Hospital,
+        title:"Hospital Management System",
+        tool:"HTML , CSS , JS  ReactJS , Chakra UI ",
+        text:"This is Hospital based websites where you Book  your Appoinments and Room online with Best prices and our services are available over India",
+        code:"https://github.com/Ashutosh5333/Hospitalmangement",
+        source:"https://hospitalmangement.vercel.app/",
     },
     {
         imgsrc:projImg3,
