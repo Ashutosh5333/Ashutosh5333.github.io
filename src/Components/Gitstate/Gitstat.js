@@ -11,7 +11,6 @@ export const Gitstat = () => {
     <br/>
        <div className="disstat">
 
-  {/* id="github-stats-langs" */}
   
      <div id="github-stats-langs" className="upper" >
         <img
@@ -19,8 +18,6 @@ export const Gitstat = () => {
         />
       </div>
       <br/>
-
-      {/*id="github-stats-card"  */}
 
       <div id="github-stats-card"   className="lower"  >
         <img

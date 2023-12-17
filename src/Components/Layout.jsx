@@ -6,15 +6,15 @@ import  {Gitstat}  from './Gitstate/Gitstat'
 import HeroSection from './herosection/HeroSection'
 import { NavBar } from './Nav/Nav'
 import ProjectWork from './PROJECT/ProjectWork'
-
+import "./loyout.css"
 import { Skills } from './Skills/Skill'
 import PersonalAchive from './PersonalAchive/PersonalAchive'
 
 export default function Layout() {
 
   return (
-   <Fragment>
-
+   <Fragment >
+     <div className="Layout"> 
     <NavBar/>
     <HeroSection />
     <Skills/>
@@ -28,6 +28,7 @@ export default function Layout() {
 
     <Contact />
     <Footer/>
+    </div>
    </Fragment>
   )
 }

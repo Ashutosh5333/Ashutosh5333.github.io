@@ -9,8 +9,6 @@ import Ashutosh_lakshakar_Resume from "../../assets/Ashutosh-lakshakar-Resume.pd
 
 export default function HeroSection() {
 
-   //   https://drive.google.com/file/d/1s_foavv3RocK31YCZI4s0rM3pBb-qgos/view?usp=share_link
-    
 
   return (
      <section>
