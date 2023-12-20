@@ -14,6 +14,7 @@ const Footer = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+  
   return (
     <div className="footer">
       <hr
