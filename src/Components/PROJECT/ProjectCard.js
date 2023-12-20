@@ -14,6 +14,8 @@ const ProjectCard = (props) => {
     data-aos-delay="300" className="project-description" id="projects">
     <img src={props.imgsrc} alt="image"/>
     <h2 className="project-title">{props.title}</h2>
+
+    
     <h3 className="project-tool">Tech Stacks </h3>
     
     <h4 className="nav-link-projects">{props.tool}</h4>
