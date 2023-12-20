@@ -9,6 +9,7 @@ import ProjectWork from './PROJECT/ProjectWork'
 import "./loyout.css"
 import { Skills } from './Skills/Skill'
 import PersonalAchive from './PersonalAchive/PersonalAchive'
+import Technical from './Technical/Technical'
 
 export default function Layout() {
 
@@ -19,6 +20,7 @@ export default function Layout() {
     <HeroSection />
     <Skills/>
     <br/>
+    <Technical/>
     <PersonalAchive/>
      <br/>
     <Gitstat/>

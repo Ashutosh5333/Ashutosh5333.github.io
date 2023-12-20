@@ -17,7 +17,9 @@ const PersonalAchive = () => {
              
              {
               Data.length>0 && Data.map((el) =>{
-                return <Box  m="auto" className='Card' >
+                return <Box   data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="300"  m="auto" className='Card' >
                 <Image className='img' src={el.img} 
                    width="250px"
                   height="300px" 

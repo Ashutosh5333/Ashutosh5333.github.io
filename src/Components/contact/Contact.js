@@ -1,86 +1,150 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-import "./contact.css"
-
+import "animate.css";
+import TrackVisibility from "react-on-screen";
+import "./contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    message: "",
+  };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
-  }
-  const  handleSubmit = ()  => {
-        alert("Message succesfully send")
-  }
-
-  
+    setFormDetails({
+      ...formDetails,
+      [category]: value,
+    });
+  };
+  const handleSubmit = () => {
+    alert("Message succesfully send");
+  };
 
   return (
     <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col
+            data-aos="fade-up-right"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+            size={12}
+            md={6}
+          >
             <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src="https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/contact-img.svg" alt="Contact Us"/>
-              }
+              {({ isVisible }) => (
+                <img
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
+                  src="https://raw.githubusercontent.com/judygab/web-dev-projects/fc630d643b3cd16d77dcad71bcac7660cdd26731/personal-portfolio/src/assets/img/contact-img.svg"
+                  alt="Contact Us"
+                />
+              )}
             </TrackVisibility>
           </Col>
           <Col className="contacttt" size={12} md={6}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
-                   <div > 
-                <form onSubmit={handleSubmit}>
-                  
-                  <Row >
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
-                    </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
-                    </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input id="contact-email" type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
-                    </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input id="contact-phone" type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
-                    </Col>
-                    <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                    
-                      <button className="SendBtn" >
-                       Send</button>
-                    </Col>
-                    {
-                      status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    }
-                  </Row>
-                </form>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>Get In Touch</h2>
+                  <div>
+                    <form onSubmit={handleSubmit}>
+                      <Row
+                        data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        data-aos-offset="100"
+                      >
+                        <Col size={12} sm={6} className="px-1">
+                          <input
+                            type="text"
+                            value={formDetails.firstName}
+                            placeholder="First Name"
+                            onChange={(e) =>
+                              onFormUpdate("firstName", e.target.value)
+                            }
+                          />
+                        </Col>
+                        <Col size={12} sm={6} className="px-1">
+                          <input
+                            type="text"
+                            value={formDetails.lasttName}
+                            placeholder="Last Name"
+                            onChange={(e) =>
+                              onFormUpdate("lastName", e.target.value)
+                            }
+                          />
+                        </Col>
+                        <Col size={12} sm={6} className="px-1">
+                          <input
+                            id="contact-email"
+                            type="email"
+                            value={formDetails.email}
+                            placeholder="Email Address"
+                            onChange={(e) =>
+                              onFormUpdate("email", e.target.value)
+                            }
+                          />
+                        </Col>
+                        <Col size={12} sm={6} className="px-1">
+                          <input
+                            id="contact-phone"
+                            type="tel"
+                            value={formDetails.phone}
+                            placeholder="Phone No."
+                            onChange={(e) =>
+                              onFormUpdate("phone", e.target.value)
+                            }
+                          />
+                        </Col>
+                        <Col size={12} className="px-1">
+                          <textarea
+                            rows="6"
+                            value={formDetails.message}
+                            placeholder="Message"
+                            onChange={(e) =>
+                              onFormUpdate("message", e.target.value)
+                            }
+                          ></textarea>
+
+                          <button className="SendBtn">Send</button>
+                        </Col>
+                        {status.message && (
+                          <Col>
+                            <p
+                              className={
+                                status.success === false ? "danger" : "success"
+                              }
+                            >
+                              {status.message}
+                            </p>
+                          </Col>
+                        )}
+                      </Row>
+                    </form>
+                  </div>
                 </div>
-              </div>}
+              )}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};

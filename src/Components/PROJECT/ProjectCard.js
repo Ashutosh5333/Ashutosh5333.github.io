@@ -1,11 +1,17 @@
+import Aos from "aos";
 import "./ProjectCard.css"
-
-import React from 'react'
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react'
 
 
 const ProjectCard = (props) => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="project-description" id="projects">
+    <div   data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-delay="300" className="project-description" id="projects">
     <img src={props.imgsrc} alt="image"/>
     <h2 className="project-title">{props.title}</h2>
     <h3 className="project-tool">Tech Stacks </h3>
