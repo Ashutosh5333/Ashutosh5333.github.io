@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f119eb36.css",
-    "main.js": "/static/js/main.ae964979.js",
+    "main.css": "/static/css/main.ba50a8ca.css",
+    "main.js": "/static/js/main.a5718027.js",
     "static/media/byme.png": "/static/media/byme.30b514040df6556b74bb.png",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -14,7 +14,6 @@
     "static/media/QuizApp.jpeg": "/static/media/QuizApp.3514c9ae281b0e2adbe1.jpeg",
     "static/media/Hospital.jpeg": "/static/media/Hospital.582f4b0b32f0d9b6548e.jpeg",
     "static/media/Im3.jpeg": "/static/media/Im3.afb42b93c264cba27612.jpeg",
-    "static/media/IMG.jpeg": "/static/media/IMG.1d1ff91b78c3a477b056.jpeg",
     "static/media/Travelorbitz.jpeg": "/static/media/Travelorbitz.5775e75641eaad85560d.jpeg",
     "static/media/Portfolio.jpeg": "/static/media/Portfolio.57e0e23f08f41e647fcb.jpeg",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
@@ -24,6 +23,7 @@
     "static/media/git.png": "/static/media/git.b5723d2fd09355d535e5.png",
     "static/media/cypress1.webp": "/static/media/cypress1.b3d5e336ef72c8e8c74a.webp",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
+    "static/media/Newprofile.jpg": "/static/media/Newprofile.1b6e77d215eb45ebb562.jpg",
     "static/media/Css.png": "/static/media/Css.e31e30fbd381c3f058df.png",
     "static/media/Html.png": "/static/media/Html.5139eb66b02855a1c137.png",
     "static/media/chakra.png": "/static/media/chakra.0719bee98cb0c0b83aeb.png",
@@ -36,11 +36,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "index.html": "/index.html",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.f119eb36.css.map": "/static/css/main.f119eb36.css.map",
-    "main.ae964979.js.map": "/static/js/main.ae964979.js.map"
+    "main.ba50a8ca.css.map": "/static/css/main.ba50a8ca.css.map",
+    "main.a5718027.js.map": "/static/js/main.a5718027.js.map"
   },
   "entrypoints": [
-    "static/css/main.f119eb36.css",
-    "static/js/main.ae964979.js"
+    "static/css/main.ba50a8ca.css",
+    "static/js/main.a5718027.js"
   ]
 }
