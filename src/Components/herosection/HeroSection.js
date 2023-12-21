@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./herosection.css";
 import { Container, Row, Col } from "reactstrap";
-import IMG from "../../assets/IMG.jpeg";
+import IMG from "../../assets/Newprofile.jpg";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { Typewriter } from "react-simple-typewriter";
@@ -34,6 +34,7 @@ export default function HeroSection() {
               </h2>
               <h2 style={{ color: "red" }} className="hero_titlep mb-3">
                 <span style={{ color: "red" }} id="user-detail-name">
+                  <div className="typewriter-wrapper">
                   <Typewriter
                     deleteSpeed={90}
                     typeSpeed={100}
@@ -48,6 +49,7 @@ export default function HeroSection() {
                     cursorBlinking
                     cursorStyle="..."
                   />
+                  </div>
                 </span>
               </h2>
               <p id="user-detail-intro">

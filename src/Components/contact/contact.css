@@ -1,27 +1,19 @@
  
   .contact {
     padding: 60px 0 200px 0;
-    /* box-shadow: 0 0 10px rgb(33, 181, 201); */
-    /* border: 1px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
   }
   .contact img {
     width: 102%;
   }
 
-  /* .contacttt{
-    border: 1px solid red;
-    box-shadow: 0 0 10px rgb(33, 181, 201);
-  } */
-  
-  /* .align-items-center{ */
-    /* border: 1px solid red; */
-     /* box-shadow: 0 0 10px rgb(33, 181, 201);  */
-  /* } */
-
   .contact h2 {
       font-size: 45px;
       font-weight: 700;
     margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
   }
   .contact form input, .contact form textarea {
     width: 100%;
@@ -88,7 +80,8 @@
   button {
     background: #3b82f6;
     box-shadow: 0 0 10px rgb(7, 81, 123);
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
   }
 
   @media screen and (max-width:450px) {

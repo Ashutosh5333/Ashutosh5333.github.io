@@ -7,11 +7,13 @@
   justify-items: center;
   justify-content: center;
   gap: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
 }
 
 .main-stat h2 {
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .upper > img {

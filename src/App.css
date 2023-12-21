@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   background: #0E1B31;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  .App{
   /* border: 2px solid red; */
@@ -12,7 +13,7 @@
  }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   background: #0E1B31;

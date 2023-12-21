@@ -18,7 +18,7 @@ export default function Layout() {
      <div className="Layout"> 
     <NavBar/>
     <HeroSection />
-    <Skills/>
+    {/* <Skills/> */}
     <br/>
     <Technical/>
     <PersonalAchive/>
@@ -27,7 +27,6 @@ export default function Layout() {
     <br/>
     <Github />
   <ProjectWork />
-
     <Contact />
     <Footer/>
     </div>
