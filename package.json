@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "framer-motion": "^7.10.3",
+    "gh-pages": "^6.1.1",
     "ityped": "^1.0.3",
     "nodemailer": "^6.8.0",
     "react": "^18.2.0",

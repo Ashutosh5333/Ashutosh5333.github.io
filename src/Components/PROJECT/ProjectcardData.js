@@ -6,6 +6,7 @@ import Portfolio from "../../assets/Portfolio.jpeg";
 import QuizApp from "../../assets/QuizApp.jpeg";
 import Travelorbitz from "../../assets/Travelorbitz.jpeg";
 import Hospital from "../../assets/Hospital.jpeg";
+import Interior from "../../assets/interior.png"
 
 const ProjectCardData = [
   {
@@ -17,14 +18,22 @@ const ProjectCardData = [
     source: "https://bymeproject-heyabrar.vercel.app/",
   },
   {
-    imgsrc: Portfolio,
-    title: "PORTFOLIO",
-    tool: "HTML, CSS, JS, ReactJS, Chakra UI",
-    text: "This Portfolio highlights projects developed with React, JavaScript, React-Icons, CSS, and Chakra UI. Explore my diverse range of projects here. Get inspired and delve into the world of creative development.",
-    code: "https://github.com/Ashutosh5333/Ashutosh5333.github.io/tree/master",
-    source: "https://ashutosh5333.github.io/",
+    imgsrc:
+      "https://github.com/Ashutosh5333/Ashutosh5333/assets/101393850/7f94dc4c-ce3f-4d3c-923f-2869a1197057",
+    title: "Doctor Appointment Booking System",
+    tool: "HTML, CSS, JS,  ReactJS, ChakraUI, Nodejs, MongoDB ",
+    text: "Welcome to a dynamic Doctor Appointment Booking website! Schedule your appointments conveniently based on your preferred time. Doctors have the flexibility to accept or reject appointment requests, ensuring a seamless booking experience.",
+    code: "https://github.com/Ashutosh5333/Doctor_management_system",
+    source: "https://doctor-management-system.vercel.app/doctordash",
+  },
+  {
+    imgsrc: Interior,
+    title: "Interior Design",
+    tool: "Nextjs, Tailwind css, Aos",
+    text: "Transforming spaces where creativity meets functionality, elevating experiences with every corner telling a story of style and sophistication. Welcome to the artistry of interior design.",
+    code: "https://github.com/Ashutosh5333/Interior",
+    source: "https://interior-d9me.vercel.app/",
 },
-
   {
     imgsrc:
       "https://github.com/Ashutosh5333/Techprimelab/assets/101393850/927b2003-3562-4837-93b1-da6bc0573902",
@@ -34,15 +43,15 @@ const ProjectCardData = [
     code: "https://github.com/Ashutosh5333/Project-mangement",
     source: "https://techprimelab-w6i3.vercel.app/",
   },
+ 
   {
-    imgsrc:
-      "https://github.com/Ashutosh5333/Ashutosh5333/assets/101393850/7f94dc4c-ce3f-4d3c-923f-2869a1197057",
-    title: "Doctor Appointment Booking System",
-    tool: "HTML, CSS, JS,  ReactJS, ChakraUI, Nodejs, MongoDB ",
-    text: "Welcome to a dynamic Doctor Appointment Booking website! Schedule your appointments conveniently based on your preferred time. Doctors have the flexibility to accept or reject appointment requests, ensuring a seamless booking experience.",
-    code: "https://github.com/Ashutosh5333/Doctor_management_system",
-    source: "https://doctor-management-system.vercel.app/doctordash",
-  },
+    imgsrc: Portfolio,
+    title: "PORTFOLIO",
+    tool: "HTML, CSS, JS, ReactJS, Chakra UI",
+    text: "This Portfolio highlights projects developed with React, JavaScript, React-Icons, CSS, and Chakra UI. Explore my diverse range of projects here. Get inspired and delve into the world of creative development.",
+    code: "https://github.com/Ashutosh5333/Ashutosh5333.github.io/tree/master",
+    source: "https://ashutosh5333.github.io/",
+},
 
   {
     imgsrc: Travelorbitz,
